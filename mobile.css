@@ -1,6 +1,6 @@
 @media screen and (max-width: 1200px) {
   .navigation {
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 23px;
   }
   .nav-left {
