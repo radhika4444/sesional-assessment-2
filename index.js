@@ -17,7 +17,7 @@ document.querySelector(".btn").addEventListener("click", (e) => {
       for (let i = 0; i < response.length; i++) {
         template += `
                       <div style="width: 20%; margin: 1.3em">
-                          <img src="/img/1.png" alt='hello' style="width:100%;border:4px solid grey;border-radius:5px">
+                          <img src="/1.png" alt='hello' style="width:100%;border:4px solid grey;border-radius:5px">
                           <h2 style="color:black">${response[i].title}</h2>
                           <p style="color: gray">${response[i].body}</p>
                           
