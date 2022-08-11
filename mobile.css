@@ -15,6 +15,10 @@
     display: none;
   }
 
+  #contact-content{
+      margin-top:40%;
+  }
+  
   #content-word{
     height:60vh;
   }
