@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: black;
+  font-family: "Baloo Bhaina 2", cursive;
+}
+
+.nav-right {
+  background-color: grey;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-left span {
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+.nav-left img{
+  height:70px;
+  width:70px;
+  border-radius:4px;
+  margin:10%;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 22px;
+  padding-bottom: 23px;
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-left ul li a:hover {
+  color: #f56692;
+  font-weight: bolder;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+}
+
+
+#content-word {
+  font-family: poppins;
+  padding: 40px;
+  z-index: 1;
+  text-align: center;
+  margin-top: -3%;
+  visibility: visible;
+}
+
+#content-word h1 {
+  color: #f56692;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 5px;
+}
+
+#content-word p {
+  line-height: 1.9rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content-img {
+  height: 300px;
+  width: 100vw;
+  margin-left: -10%;
+  padding: 0;
+  margin:0;
+}
+
+.content-img img {
+  height: 300px;
+  width: 100%;
+  opacity: 0.1rem;
+  border-radius: 20px;
+}
+
+.footer {
+  height: 80px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  font-size:30px;
+}
+
+.footer p {
+  border-radius: 5px;
+  padding: 5px;
+  background-color:grey;
+}
+
+
+#my-container {
+  width: 96vw;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align:center;
+  visibility: hidden;
+}
+
+#my-container h1{
+  color:#f56692;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 5px;
+}
+.blog-img{
+   height:100px;
+   width:100px;
+   border:1px solid black;
+}
+
+#contact-content {
+  width: 70%;
+  margin-top: -5%;
+  margin-bottom: 32px;
+  padding: 5px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  visibility:visible;
+}
+
+#li{
+  visibility: hidden;
+}
+
+#contact-content h2,h5{
+  text-align:left;
+  color:BLACK;
+}
+
+
